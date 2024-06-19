@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="device=device-width , inital-scale=1.0">
+        <meta name="author" content="Forms">
+        <link rel="icon" type="image/jpeg" href="images/letter F.jpeg">
+        <title>Forms and other</title>
+        <body>
+            <form action="index.php" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" placeholder="Your username" minlength="5" maxlenght="16 required"><br>
+
+                <label for="password">Password:</label>
+                <input type="password" placeholder="Password" id="password" minlength="6" maxlenght="20"><br>
+
+                <label for="email">Email:</label>
+                <input type="email" placeholder="example@gmail.com" id="emal"><br>
+
+                <label for="phone">phone#</label>
+                <input type="tel" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+
+                <label  for="bday">birthday</label>
+                <input type="date" id="bday"><br>
+
+                <label for="quantity">quantity</label>
+                <input type="number" id="quantity" min="0" max="100" value="1"><br>
+
+                <label for="Mr.">Mr.</label>
+                <input type="radio" id="Mr." value="Mr." name="title">
+
+                <label for="Ms.">Ms.</label>
+                <input type="radio" id="Ms." value="Ms." name="title">
+
+                <label for="PhD">PhD</label>
+                <input type="radio" id="PhD" value="PhD" name="title">
+
+                <p>Choose your favourite favourite language</p>
+                
+                <label for="HTML">HTML</label>
+                <input type="checkbox" id="HTML" name="fav_language" value="HTML"><br>
+
+                <label for="CSS">CSS</label>
+                <input type="checkbox" id="CSS" name="fav_language" value="CSS"><br>  
+
+                <label for="JavaScript">JS</label>
+                <input type="checkbox" id="JS" name="fav_language" value="JS"><br>
+
+                <label for="TypeScript">TS</label>
+                <input type="checkbox" id="TS" value="TypeScript" name="fav_language"><br>
+                <h4>Choose how to pay </h4>
+
+                <label for="payment">Payment</label>
+                <select>
+                    <option value="visa">visa</option>
+                    <option value="mastercard">mastercard</option>
+                    <option value="giftcard">giftcard</option>
+                    <option value="maestro">maestro</option>
+                    <option value="pluxee">pluxee</option><br>
+
+                   
+                    
+                </select><br>
+                <label for="subscribe">subscribe</label>
+                <input type="checkbox" id="subscribe"><br>
+
+                <label for="comment">comment:</label>
+                <textarea id="comment" rows="3" cols="25"></textarea><br>
+
+                <label for="file"></label>
+                <input type="file" dir="file" accept="image/png , image/jpeg"><br>
+                
+
+                <input type="reset"><br>
+                <input type="Submit" value="Submit">
+           
+            </form>
+        </body>
+    </head>
+</html>
